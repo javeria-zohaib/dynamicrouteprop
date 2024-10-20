@@ -1,5 +1,5 @@
-
-export default function CountryDetail(Props:any){
+import { CountryDataProp } from "../data/type"
+export default function CountryDetail(Props:CountryDataProp){
     console.log(Props)
     return(
         <div>
